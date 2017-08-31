@@ -1,7 +1,7 @@
 # Raspberry-Pi-VNC-Mac
 How to Setup Raspberry Pi VNC Screensharing on a Mac
 
-Credits to http://4dc5.com/2012/06/12/setting-up-vnc-on-raspberry-pi-for-mac-access/ for developing a guide to base the tutorial on.
+Credits to http://4dc5.com/2012/06/12/setting-up-vnc-on-raspberry-pi-for-mac-access/ for developing a guide to base this tutorial on.
 
 ```
 sudo apt-get install tightvncserver
