@@ -56,7 +56,14 @@ Add the following content and change `1440x900` to `1920x1080`:
 ```
 #!/bin/bash
 # /etc/init.d/tightvncserver
-#
+### BEGIN INIT INFO
+# Provides:          tightvncserver
+# Required-Start:    $all
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Run tightvncserver on startup
+### END INIT INFO
 
 # Carry out specific functions when asked to by the system
 case "$1" in
